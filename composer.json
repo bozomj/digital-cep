@@ -1,0 +1,23 @@
+{
+    "name": "bozo/dio_php",
+    "description": "busca de cep online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fracinildo",
+            "email": "bozomj@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "bozo\\dio_php\\": "src/"
+        }
+    }
+}
